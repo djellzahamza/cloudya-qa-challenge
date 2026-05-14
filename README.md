@@ -58,23 +58,26 @@ npx playwright test --debug tests/ui/login.spec.ts
 
 ## Project Structure
 
-app/
-  tests/
-    ui/
-      login.spec.ts         - Login UI tests
-      search.spec.ts        - Contact search UI tests
-    api/
-      auth.spec.ts          - Authentication API tests
-      contact.spec.ts       - Contacts API tests
-    mobile/
-      login.mobile.spec.ts  - Mobile viewport tests iPhone 13
-  pages/
-    LoginPage.ts            - Login page POM
-    ContactsPage.ts         - Contacts page POM
-  playwright.config.js
-docs/
-  qa-report.pdf
-README.md
+```
+1-challenge-candidat/
+├── app/
+│   ├── tests/
+│   │   ├── ui/
+│   │   │   ├── login.spec.ts         # Basic login tests
+│   │   │   └── search.spec.ts        # Contact search basic  tests
+│   │   ├── api/
+│   │   │   ├── auth.spec.ts          # Authentication API tests
+│   │   │   └── contact.spec.ts       # Contacts API tests
+│   │   └── mobile/
+│   │       └── login.mobile.spec.ts  # Mobile viewport tests iPhone 13
+│   ├── pages/
+│   │   ├── LoginPage.ts              # Login page POM
+│   │   └── ContactsPage.ts           # Contacts page POM
+│   └── playwright.config.js
+├── docs/
+│   ├── qa-report.pdf
+└── README.md
+```
 
 ---
 
